@@ -1,0 +1,199 @@
+func stob(s){
+    val = 0
+    match s{
+        case "a": {
+            val = 97
+        }
+        case "b": {
+            val = 98
+        }
+        case "c": {
+            val = 99
+        }
+        case "d": {
+            val = 100
+        }
+        case "e": {
+            val = 101
+        }
+        case "f": {
+            val = 102
+        }
+        case "g": {
+            val = 103
+        }
+        case "h": {
+            val = 104
+        }
+        case "i":{
+            val = 105
+        }        
+        case "j":{
+            val = 106
+        }
+        case "k":{
+            val = 107
+        }
+        case "l":{
+            val = 108
+        }
+        case "m":{
+            val = 109
+        }
+        case "n":{
+            val = 110
+        }
+        case "o":{
+            val = 111
+        }
+        case "p":{
+            val = 112
+        }
+        case "q":{
+            val = 113
+        }
+        case "r":{
+            val = 114
+        }
+        case "s":{
+            val = 115
+        }
+        case "t":{
+            val = 116
+        }
+        case "u":{
+            val = 117
+        }
+        case "v":{
+            val = 118
+        }
+        case "w":{
+            val = 119
+        }
+        case "x":{
+            val = 120
+        }
+        case "y":{
+            val = 121
+        }
+        case "z":{
+            val = 122
+        }
+        case "A":{
+            val = 65
+        }
+        case "B":{
+            val = 66
+        }
+        case "C":{
+            val = 67
+        }
+        case "D":{
+            val = 68
+        }
+        case "E":{
+            val = 69
+        }
+        case "F":{
+            val = 70
+        }
+        case "G":{
+            val = 71
+        }
+        case "H":{
+            val = 72
+        }
+        case "I":{
+            val = 73
+        }
+        case "J":{
+            val = 74
+        }
+        case "K":{
+            val = 75
+        }
+        case "L":{
+            val = 76
+        }
+        case "M":{
+            val = 77
+        }
+        case "N":{
+            val = 78
+        }
+        case "O":{
+            val = 79
+        }
+        case "P":{
+            val = 80
+        }
+        case "Q":{
+            val = 81
+        }
+        case "R":{
+            val = 82
+        }
+        case "S":{
+            val = 83
+        }
+        case "T":{
+            val = 84
+        }
+        case "U":{
+            val = 85
+        }
+        case "V":{
+            val = 86
+        }
+        case "W":{
+            val = 87
+        }
+        case "X":{
+            val = 88
+        }
+        case "Y":{
+            val = 89
+        }
+        case "Z":{
+            val = 90
+        }
+        case " ":{
+            val = 32
+        }
+        case "0":{
+            val = 48
+        }
+        case "1":{
+            val = 49
+        }
+        case "2":{
+            val = 50
+        }
+        case "3":{
+            val = 51
+        }
+        case "4":{
+            val = 52
+        }
+        case "5":{
+            val = 53
+        }
+        case "6":{
+            val = 54
+        }
+        case "7":{
+            val = 55
+        }
+        case "8":{
+            val = 56
+        }
+        case "9":{
+            val = 57
+        }
+        case _:{
+            val = 0
+        }
+    }
+    return val
+    
+    }

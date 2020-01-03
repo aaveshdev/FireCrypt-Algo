@@ -1,0 +1,35 @@
+select "std"
+include "stobm.dgn"
+include "vcheck.dgn"
+
+func fireCrypt(a)
+{
+    b = split(a,"")
+    l = length(b)
+   
+    for i=0,i<l,i++
+    {
+        p = stob(b[i])
+        j = p + rand(3,4) * rand(2,4)
+         if(check(j))
+        {
+            show toChar(j)
+        }
+        else if(p == 32)
+        {
+            j = p + rand(8,9) * rand(2,6)
+            show toChar(j)
+        }
+        else{
+           
+            j = p - rand(2,3) * rand(2,5)
+            show toChar(j)
+        }
+        
+     }
+     showln ""
+}
+
+
+
+fireCrypt("Enter text here")

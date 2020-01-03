@@ -1,0 +1,196 @@
+func check(s){
+    val = false
+    match s{
+        case 97: {
+            val = true
+        }
+        case 98: {
+            val = true
+        }
+        case 99: {
+            val = true
+        }
+        case 100: {
+            val = true
+        }
+        case 101: {
+            val = true
+        }
+        case 102: {
+            val = true
+        }
+        case 103: {
+            val = true
+        }
+        case 104: {
+            val = true
+        }
+        case 105:{
+            val = true
+        }        
+        case 106:{
+            val = true
+        }
+        case 107:{
+            val = true
+        }
+        case 108:{
+            val = true
+        }
+        case 109:{
+            val = true
+        }
+        case 110:{
+            val = true
+        }
+        case 111:{
+            val = true
+        }
+        case 112:{
+            val = true
+        }
+        case 113:{
+            val = true
+        }
+        case 114:{
+            val = true
+        }
+        case 115:{
+            val = true
+        }
+        case 116:{
+            val = true
+        }
+        case 117:{
+            val = true
+        }
+        case 118:{
+            val = true
+        }
+        case 119:{
+            val = true
+        }
+        case 120:{
+            val = true
+        }
+        case 121:{
+            val = true
+        }
+        case 122:{
+            val = true
+        }
+        case 65:{
+            val = true
+        }
+        case 66:{
+            val = true
+        }
+        case 67:{
+            val = true
+        }
+        case 68:{
+            val = true
+        }
+        case 69:{
+            val = true
+        }
+        case 70:{
+            val = true
+        }
+        case 71:{
+            val = true
+        }
+        case 72:{
+            val = true
+        }
+        case 73:{
+            val = true
+        }
+        case 74:{
+            val = true
+        }
+        case 75:{
+            val = true
+        }
+        case 76:{
+            val = true
+        }
+        case 77:{
+            val = true
+        }
+        case 78:{
+            val = true
+        }
+        case 79:{
+            val = true
+        }
+        case 80:{
+            val = true
+        }
+        case 81:{
+            val = true
+        }
+        case 82:{
+            val = true
+        }
+        case 83:{
+            val = true
+        }
+        case 84:{
+            val = true
+        }
+        case 85:{
+            val = true
+        }
+        case 86:{
+            val = true
+        }
+        case 87:{
+            val = true
+        }
+        case 88:{
+            val = true
+        }
+        case 89:{
+            val = true
+        }
+        case 90:{
+            val = true
+        }
+        case 48:{
+            val = true
+        }
+        case 49:{
+            val = true
+        }
+        case 50:{
+            val = true
+        }
+        case 51:{
+            val = true
+        }
+        case 52:{
+            val = true
+        }
+        case 53:{
+            val = true
+        }
+        case 54:{
+            val = true
+        }
+        case 55:{
+            val = true
+        }
+        case 56:{
+            val = true
+        }
+        case 57:{
+            val = true
+        }
+        case _:{
+            val = false
+        }
+    }
+    return val
+    
+    }
